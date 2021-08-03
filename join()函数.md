@@ -29,8 +29,6 @@ seq：要连接的元素序列、字符串、元组、字典
 seq1 = ['hello','good','boy','doiido']
  print ' '.join(seq1)
 hello good boy doiido
- print ':'.join(seq1)
-hello:good:boy:doiido
 
 
 ## 对字符串进行操作
