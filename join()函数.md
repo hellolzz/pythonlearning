@@ -25,35 +25,8 @@ seq：要连接的元素序列、字符串、元组、字典
 
 注：第一个绝对路径之前的参数将被忽略
 ## 对序列进行操作（分别使用' '与':'作为分隔符）
-
-seq1 = ['hello','good','boy','doiido']
- print ' '.join(seq1)
-hello good boy doiido
-
-
 ## 对字符串进行操作
-
- seq2 = "hello good boy doiido"
- print ':'.join(seq2)
-h:e:l:l:o: :g:o:o:d: :b:o:y: :d:o:i:i:d:o
-
-
 ## 对元组进行操作
-
- seq3 = ('hello','good','boy','doiido')
- print ':'.join(seq3)
-hello:good:boy:doiido
-
-
 ## 对字典进行操作
-
- seq4 = {'hello':1,'good':2,'boy':3,'doiido':4}
- print ':'.join(seq4)
-boy:good:doiido:hello
-
-
 ## 合并目录
 
- import os
- os.path.join('/hello/','good/boy/','doiido')
-'/hello/good/boy/doiido'
